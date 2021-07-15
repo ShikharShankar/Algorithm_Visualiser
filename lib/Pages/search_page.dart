@@ -1,4 +1,4 @@
-import 'package:algorithm_visualizer/Providers/Search%20Providers/search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/search_provider.dart';
 import 'package:algorithm_visualizer/Widgets/Search%20Widgets/search.dart';
 import 'package:algorithm_visualizer/Widgets/Search%20Widgets/search_indicator.dart';
 import 'package:algorithm_visualizer/Widgets/Search%20Widgets/search_message.dart';

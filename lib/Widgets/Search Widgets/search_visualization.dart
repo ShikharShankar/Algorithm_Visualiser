@@ -1,5 +1,5 @@
 import 'package:algorithm_visualizer/Models/search_model.dart';
-import 'package:algorithm_visualizer/Providers/Search%20Providers/search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/search_provider.dart';
 import 'package:algorithm_visualizer/Widgets/Search%20Widgets/search_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

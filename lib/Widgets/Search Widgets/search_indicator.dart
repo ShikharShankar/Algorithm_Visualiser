@@ -1,6 +1,6 @@
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:algorithm_visualizer/Providers/Search%20Providers/search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/search_provider.dart';
 import 'package:algorithm_visualizer/Models/search_model.dart';
 import 'package:after_layout/after_layout.dart';
 

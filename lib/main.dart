@@ -1,5 +1,6 @@
-import 'package:algorithm_visualizer/Providers/Search%20Providers/binary_search_provider.dart';
-import 'package:algorithm_visualizer/Providers/Search%20Providers/linear_search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/binary_search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/jump_search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/linear_search_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:algorithm_visualizer/home.dart';
@@ -26,6 +27,9 @@ class MyApp extends StatelessWidget {
               ),
               ChangeNotifierProvider(
                 create: (_) => BinarySearchProvider(),
+              ),
+              ChangeNotifierProvider(
+                create: (_) => JumpSearchProvider(),
               ),
             ],
             child: Home(),

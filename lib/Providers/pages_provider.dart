@@ -1,5 +1,6 @@
-import 'package:algorithm_visualizer/Providers/Search%20Providers/binary_search_provider.dart';
-import 'package:algorithm_visualizer/Providers/Search%20Providers/linear_search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/binary_search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/jump_search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/linear_search_provider.dart';
 import 'package:algorithm_visualizer/Pages/search_page.dart';
 import 'package:flutter/material.dart';
 
@@ -9,6 +10,7 @@ class PagesProvider extends ChangeNotifier {
   final _searchPages = [
     SearchPage<LinearSearchProvider>(title: 'Linear Search'),
     SearchPage<BinarySearchProvider>(title: 'Binary Search'),
+    SearchPage<JumpSearchProvider>(title: 'Jump Search'),
   ];
 
   void changeKey(String key) {

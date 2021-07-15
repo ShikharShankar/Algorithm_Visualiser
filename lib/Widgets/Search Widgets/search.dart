@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:algorithm_visualizer/Providers/Search%20Providers/search_provider.dart';
+import 'package:algorithm_visualizer/Providers/Search_Providers/search_provider.dart';
 
 class Search<T extends SearchProvider> extends StatefulWidget {
   const Search({Key? key}) : super(key: key);
